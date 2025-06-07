@@ -3,34 +3,4 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
-No definition could be found for URL value 'http://npu-terminology.org/property/created_date'
-No definition could be found for URL value 'http://npu-terminology.org/property/change_date'
-No definition could be found for URL value 'http://npu-terminology.org/property/system'
-No definition could be found for URL value 'http://npu-terminology.org/property/sys_spec'
-No definition could be found for URL value 'http://npu-terminology.org/property/component'
-No definition could be found for URL value 'http://npu-terminology.org/property/comp_spec'
-No definition could be found for URL value 'http://npu-terminology.org/property/kind_of_property'
-No definition could be found for URL value 'http://npu-terminology.org/property/proc'
-No definition could be found for URL value 'http://npu-terminology.org/property/unit'
-No definition could be found for URL value 'http://npu-terminology.org/property/specialty'
-No definition could be found for URL value 'http://npu-terminology.org/property/context_dependent'
-No definition could be found for URL value 'http://npu-terminology.org/property/scale_type'
-No definition could be found for URL value 'http://npu-terminology.org/property/replaces'
-No definition could be found for URL value 'http://npu-terminology.org/property/active'
-No definition could be found for URL value 'http://npu-terminology.org/property/current_version'
-The property uri 'http://npu-terminology.org/property/created_date' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/change_date' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/system' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/sys_spec' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/component' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/comp_spec' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/kind_of_property' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/proc' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/unit' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/specialty' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/context_dependent' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/scale_type' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/replaces' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/active' is not known, so the property values can not be validated fully
-The property uri 'http://npu-terminology.org/property/current_version' is not known, so the property values can not be validated fully
-The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+
