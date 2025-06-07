@@ -30,13 +30,14 @@
       ]
     }
   ],
-  "description": "NPU Terminology International edition Code System",
+  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 14:06",
   "copyright": "The ownership and intellectual property rights of NPU terminology are shared between the International Federation of Clinical Chemistry and Laboratory Medicine (IFCC) (www.ifcc.org) and the International Union of Pure and Applied Chemistry (IUPAC) (www.iupac.org).",
   "caseSensitive": true,
+  "valueSet": "http://npu-terminology.org/fhir/ValueSet/NPUFull",
   "compositional": false,
   "versionNeeded": false,
   "content": "complete",
-  "count": 8,
+  "count": 10,
   "property": [
     {
       "code": "created_date",
@@ -523,6 +524,120 @@
         {
           "code": "specialty",
           "valueString": "CLC"
+        },
+        {
+          "code": "context_dependent",
+          "valueBoolean": false
+        },
+        {
+          "code": "scale_type",
+          "valueString": "Ratio"
+        },
+        {
+          "code": "active",
+          "valueBoolean": true
+        },
+        {
+          "code": "current_version",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "NPU03827",
+      "display": "P—Fibrinopeptide B[beta](1-42); subst.c.(imm.;proc.) = ? nmol/L",
+      "definition": "Plasma—Fibrinopeptide B[beta](1-42); substance concentration(immunological;procedure) = ? nanomole per litre",
+      "property": [
+        {
+          "code": "created_date",
+          "valueDateTime": "1996-01-01T01:00:00Z"
+        },
+        {
+          "code": "change_date",
+          "valueDateTime": "2017-01-10T14:30:00Z"
+        },
+        {
+          "code": "system",
+          "valueString": "Plasma"
+        },
+        {
+          "code": "component",
+          "valueString": "Fibrinopeptide B[beta](1-42)"
+        },
+        {
+          "code": "kind_of_property",
+          "valueString": "substance concentration"
+        },
+        {
+          "code": "proc",
+          "valueString": "immunological; procedure"
+        },
+        {
+          "code": "unit",
+          "valueString": "nanomole per litre"
+        },
+        {
+          "code": "specialty",
+          "valueString": "TAH"
+        },
+        {
+          "code": "context_dependent",
+          "valueBoolean": false
+        },
+        {
+          "code": "scale_type",
+          "valueString": "Ratio"
+        },
+        {
+          "code": "active",
+          "valueBoolean": true
+        },
+        {
+          "code": "current_version",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "NPU63222",
+      "display": "Lymcs(Marrow)—T-lymphocytes(CD4+); num.fr. = ? %",
+      "definition": "Lymphocytes(Bone marrow)—T-lymphocytes(CD4+); number fraction = ? 10<sup>-2</sup>",
+      "property": [
+        {
+          "code": "created_date",
+          "valueDateTime": "2025-05-09T10:54:00Z"
+        },
+        {
+          "code": "change_date",
+          "valueDateTime": "2025-05-09T10:54:00Z"
+        },
+        {
+          "code": "system",
+          "valueString": "Lymphocytes"
+        },
+        {
+          "code": "sys_spec",
+          "valueString": "Bone marrow"
+        },
+        {
+          "code": "component",
+          "valueString": "T-lymphocytes"
+        },
+        {
+          "code": "comp_spec",
+          "valueString": "CD4+"
+        },
+        {
+          "code": "kind_of_property",
+          "valueString": "number fraction"
+        },
+        {
+          "code": "unit",
+          "valueString": "10<sup>-2</sup>"
+        },
+        {
+          "code": "specialty",
+          "valueString": "IMM"
         },
         {
           "code": "context_dependent",
