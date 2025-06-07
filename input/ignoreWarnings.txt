@@ -18,3 +18,19 @@ No definition could be found for URL value 'http://npu-terminology.org/property/
 No definition could be found for URL value 'http://npu-terminology.org/property/replaces'
 No definition could be found for URL value 'http://npu-terminology.org/property/active'
 No definition could be found for URL value 'http://npu-terminology.org/property/current_version'
+The property uri 'http://npu-terminology.org/property/created_date' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/change_date' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/system' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/sys_spec' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/component' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/comp_spec' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/kind_of_property' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/proc' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/unit' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/specialty' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/context_dependent' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/scale_type' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/replaces' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/active' is not known, so the property values can not be validated fully
+The property uri 'http://npu-terminology.org/property/current_version' is not known, so the property values can not be validated fully
+The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
