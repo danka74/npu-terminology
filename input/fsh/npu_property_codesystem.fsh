@@ -6,19 +6,18 @@ Description: """This code system contains the NPU property codes used in the NPU
 * ^experimental = false
 * ^caseSensitive = true
 * ^content = #complete
-* #comp_spec "Component specification"
+* #comp_spec "Component specification" """Specification of the component"""
 * #component "Component" """A part of the system"""
 * #context_dependent "Context dependent"
 * #created_date "Created date" """Date when the NPU concept was created"""
 * #change_date "Change date" """Date when the NPU concept was last changed"""
-* #current_version "Current version"
 * #kind_of_property "Kind-of-property" """Aspect common to mutually comparable properties (modified VIM3 definition kind of quantity 1.2, (1))
     Abstraction of a property"""
-* #proc "Procedure"
-* #replaces "Replaces"
-* #scale_type "Scale type"
-* #specialty "Specialty"
-* #sys_spec "System specification"
+* #proc "Procedure" """Specification of the procedure"""
+* #replaces "Replaces" """The retired NPU concept this concept replaces."""
+* #scale_type "Scale type" """Scale type of the property value; Nominal, Ordinal, or Ratio"""
+* #specialty "Specialty" """The laboratory specialty this NPU concept belongs to."""
+* #sys_spec "System specification" """Specification of the system"""
 * #system "System" """Part or phenomenon of the perceivable or conceivable world consisting of a demarcated arrangement of a set of elements and a set of relationships or processes between these elements.
     Note 1: The system can be a patient (e.g. body of a patient), a distinct part of the patient (e.g. blood, cerebrospinal fluid), or a part of the patient’s surroundings (e.g., house dust or drinking water).
     Note 2: The system is an in vivo system that occurs in the patient. Hence, sample or specimen is an in vitro system that occurs outside the patient and is an artifact. E.g. serum does not occur in the patient but is an artifact created when coagulation of the collected sample is processed."""

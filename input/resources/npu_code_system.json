@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 21:25",
+  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 21:41",
   "copyright": "The ownership and intellectual property rights of NPU terminology are shared between the International Federation of Clinical Chemistry and Laboratory Medicine (IFCC) (www.ifcc.org) and the International Union of Pure and Applied Chemistry (IUPAC) (www.iupac.org).",
   "caseSensitive": true,
   "valueSet": "http://npu-terminology.org/fhir/ValueSet/NPUFull",
@@ -130,12 +130,6 @@
       "uri": "http://npu-terminology.org/property#replaces",
       "description": "The NPU code that this code replaces",
       "type": "string"
-    },
-    {
-      "code": "current_version",
-      "uri": "http://npu-terminology.org/property#current_version",
-      "description": "Indicates if this is the current version of the NPU code",
-      "type": "boolean"
     }
   ],
   "concept": [
@@ -183,10 +177,6 @@
         {
           "code": "scale_type",
           "valueString": "Ordinal"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -234,10 +224,6 @@
         {
           "code": "scale_type",
           "valueString": "Ordinal"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -285,10 +271,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -336,10 +318,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -387,10 +365,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -438,10 +412,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -489,10 +459,6 @@
         {
           "code": "scale_type",
           "valueString": "Ordinal"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -540,10 +506,6 @@
         {
           "code": "scale_type",
           "valueString": "Ordinal"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -591,10 +553,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -642,10 +600,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -693,10 +647,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -748,10 +698,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -803,10 +749,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -858,10 +800,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     },
@@ -917,10 +855,6 @@
         {
           "code": "scale_type",
           "valueString": "Ratio"
-        },
-        {
-          "code": "current_version",
-          "valueBoolean": true
         }
       ]
     }
