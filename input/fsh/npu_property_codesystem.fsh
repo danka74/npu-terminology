@@ -9,8 +9,8 @@ Description: """This code system contains the NPU property codes used in the NPU
 * #comp_spec "Component specification" """Specification of the component"""
 * #component "Component" """A part of the system"""
 * #context_dependent "Context dependent"
-* #created_date "Created date" """Date when the NPU concept was created"""
-* #change_date "Change date" """Date when the NPU concept was last changed"""
+* #created_date "Created date" """The date when the NPU concept was created"""
+* #change_date "Change date" """The date when the NPU concept was last changed"""
 * #kind_of_property "Kind-of-property" """Aspect common to mutually comparable properties (modified VIM3 definition kind of quantity 1.2, (1))
     Abstraction of a property"""
 * #proc "Procedure" """Specification of the procedure"""

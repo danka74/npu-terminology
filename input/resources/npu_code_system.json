@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 21:41",
+  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 21:57",
   "copyright": "The ownership and intellectual property rights of NPU terminology are shared between the International Federation of Clinical Chemistry and Laboratory Medicine (IFCC) (www.ifcc.org) and the International Union of Pure and Applied Chemistry (IUPAC) (www.iupac.org).",
   "caseSensitive": true,
   "valueSet": "http://npu-terminology.org/fhir/ValueSet/NPUFull",
@@ -58,77 +58,79 @@
     {
       "code": "change_date",
       "uri": "http://npu-terminology.org/property#change_date",
+      "description": "The date when the NPU code was last changed",
       "type": "dateTime"
     },
     {
       "code": "status",
       "uri": "http://hl7.org/fhir/concept-properties#status",
+      "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
       "type": "code"
     },
     {
       "code": "system",
       "uri": "http://npu-terminology.org/property#system",
-      "description": "The system of the the NPU code belongs",
+      "description": "The system of the the NPU concept",
       "type": "string"
     },
     {
       "code": "sys_spec",
       "uri": "http://npu-terminology.org/property#sys_spec",
-      "description": "The system specification of the NPU code",
+      "description": "The system specification of the NPU concept",
       "type": "string"
     },
     {
       "code": "component",
       "uri": "http://npu-terminology.org/property#component",
-      "description": "The component of the NPU code",
+      "description": "The component of the NPU concept",
       "type": "string"
     },
     {
       "code": "comp_spec",
       "uri": "http://npu-terminology.org/property#comp_spec",
-      "description": "The component specification of the NPU code",
+      "description": "The component specification of the NPU concept",
       "type": "string"
     },
     {
       "code": "kind_of_property",
       "uri": "http://npu-terminology.org/property#kind_of_property",
-      "description": "The kind of property of the NPU code",
+      "description": "The kind of property of the NPU concept",
       "type": "string"
     },
     {
       "code": "proc",
       "uri": "http://npu-terminology.org/property#proc",
-      "description": "The procedure associated with the NPU code",
+      "description": "The procedure associated with the NPU concept",
       "type": "string"
     },
     {
       "code": "unit",
       "uri": "http://npu-terminology.org/property#unit",
-      "description": "The unit of measurement for the NPU code",
+      "description": "The unit of measurement for the NPU concept",
       "type": "string"
     },
     {
       "code": "specialty",
       "uri": "http://npu-terminology.org/property#specialty",
-      "description": "The specialty associated with the NPU code",
+      "description": "The specialty associated with the NPU concept",
       "type": "string"
     },
     {
       "code": "context_dependent",
       "uri": "http://npu-terminology.org/property#context_dependent",
-      "description": "Indicates if the NPU code is context dependent",
+      "description": "Indicates if the NPU concept is context dependent",
       "type": "boolean"
     },
     {
       "code": "scale_type",
       "uri": "http://npu-terminology.org/property#scale_type",
-      "description": "The scale type of the NPU code",
+      "description": "The scale type of the NPU concept",
       "type": "string"
     },
     {
       "code": "replaces",
       "uri": "http://npu-terminology.org/property#replaces",
-      "description": "The NPU code that this code replaces",
+      "description": "The retired NPU concept that this concept replaces",
       "type": "string"
     }
   ],
