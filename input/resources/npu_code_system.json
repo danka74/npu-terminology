@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 21:57",
+  "description": "NPU Terminology International edition Code System. Generated from testdata/npu_test_data.xml on 2025-06-07 22:08",
   "copyright": "The ownership and intellectual property rights of NPU terminology are shared between the International Federation of Clinical Chemistry and Laboratory Medicine (IFCC) (www.ifcc.org) and the International Union of Pure and Applied Chemistry (IUPAC) (www.iupac.org).",
   "caseSensitive": true,
   "valueSet": "http://npu-terminology.org/fhir/ValueSet/NPUFull",
@@ -66,6 +66,12 @@
       "uri": "http://hl7.org/fhir/concept-properties#status",
       "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
       "type": "code"
+    },
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false",
+      "type": "boolean"
     },
     {
       "code": "system",
@@ -153,6 +159,10 @@
           "valueCode": "retired"
         },
         {
+          "code": "inactive",
+          "valueBoolean": true
+        },
+        {
           "code": "system",
           "valueString": "Urine"
         },
@@ -198,6 +208,10 @@
         {
           "code": "status",
           "valueCode": "retired"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": true
         },
         {
           "code": "system",
@@ -247,6 +261,10 @@
           "valueCode": "active"
         },
         {
+          "code": "inactive",
+          "valueBoolean": false
+        },
+        {
           "code": "system",
           "valueString": "Urine"
         },
@@ -292,6 +310,10 @@
         {
           "code": "status",
           "valueCode": "active"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": false
         },
         {
           "code": "system",
@@ -341,6 +363,10 @@
           "valueCode": "active"
         },
         {
+          "code": "inactive",
+          "valueBoolean": false
+        },
+        {
           "code": "system",
           "valueString": "Blood"
         },
@@ -386,6 +412,10 @@
         {
           "code": "status",
           "valueCode": "active"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": false
         },
         {
           "code": "system",
@@ -435,6 +465,10 @@
           "valueCode": "retired"
         },
         {
+          "code": "inactive",
+          "valueBoolean": true
+        },
+        {
           "code": "system",
           "valueString": "Urine"
         },
@@ -480,6 +514,10 @@
         {
           "code": "status",
           "valueCode": "retired"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": true
         },
         {
           "code": "system",
@@ -529,6 +567,10 @@
           "valueCode": "active"
         },
         {
+          "code": "inactive",
+          "valueBoolean": false
+        },
+        {
           "code": "system",
           "valueString": "Urine"
         },
@@ -574,6 +616,10 @@
         {
           "code": "status",
           "valueCode": "active"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": false
         },
         {
           "code": "system",
@@ -623,6 +669,10 @@
           "valueCode": "active"
         },
         {
+          "code": "inactive",
+          "valueBoolean": false
+        },
+        {
           "code": "system",
           "valueString": "Plasma"
         },
@@ -668,6 +718,10 @@
         {
           "code": "status",
           "valueCode": "retired"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": true
         },
         {
           "code": "system",
@@ -721,6 +775,10 @@
           "valueCode": "active"
         },
         {
+          "code": "inactive",
+          "valueBoolean": false
+        },
+        {
           "code": "system",
           "valueString": "Plasma"
         },
@@ -772,6 +830,10 @@
           "valueCode": "active"
         },
         {
+          "code": "inactive",
+          "valueBoolean": false
+        },
+        {
           "code": "system",
           "valueString": "Plasma"
         },
@@ -821,6 +883,10 @@
         {
           "code": "status",
           "valueCode": "active"
+        },
+        {
+          "code": "inactive",
+          "valueBoolean": false
         },
         {
           "code": "system",
